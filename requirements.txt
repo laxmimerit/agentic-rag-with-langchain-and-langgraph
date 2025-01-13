@@ -1,0 +1,4 @@
+docling==2.15.1
+
+langchain-docling
+
