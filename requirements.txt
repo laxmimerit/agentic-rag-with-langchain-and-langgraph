@@ -2,3 +2,9 @@ docling==2.15.1
 
 langchain-docling
 
+pip install 'docling-core[chunking]'
+
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+pip install unstructured openpyxl python-magic python-pptx
+pip install "unstructured[all-docs]"
