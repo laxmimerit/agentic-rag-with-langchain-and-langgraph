@@ -8,3 +8,7 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 
 pip install unstructured openpyxl python-magic python-pptx
 pip install "unstructured[all-docs]"
+
+pip install faiss-cpu
+
+langchain_community
