@@ -13,7 +13,6 @@ Make sure to explain things along-with Ollama and OpenAI API too.
     - explain openai api
     - explain how to use openai api with image and text
 
-
 - Multi-Format Documents Loader for RAG
     - Financial Documents
 
@@ -21,8 +20,3 @@ Make sure to explain things along-with Ollama and OpenAI API too.
 
 - Agentic RAG
 
-- Adaptive RAG
-
-- Corrective RAG
-
-- Self-RAG
