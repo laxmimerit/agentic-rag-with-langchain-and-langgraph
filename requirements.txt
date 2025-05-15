@@ -1,14 +1,25 @@
-docling==2.15.1
-
+# Docling and document processing
+docling
 langchain-docling
+langchain_docling
+docling-core[chunking]
 
-pip install 'docling-core[chunking]'
-
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-
-pip install unstructured openpyxl python-magic python-pptx
-pip install "unstructured[all-docs]"
-
-pip install faiss-cpu
-
+# LangChain ecosystem
+langchain
 langchain_community
+langchain_core
+langchain_openai
+langchain-ollama
+
+# Data processing and file formats
+openpyxl
+python-magic
+python-pptx
+unstructured
+unstructured[all-docs]
+faiss-cpu
+
+# Utilities
+python-dotenv
+pydantic
+httpx
