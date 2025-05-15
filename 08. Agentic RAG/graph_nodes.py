@@ -7,12 +7,12 @@ from langchain_core.prompts import PromptTemplate
 
 from langchain_ollama import ChatOllama
 
-from langchain_openai import ChatOpenAI
-llm = ChatOpenAI(model="gpt-4o-mini")
+# from langchain_openai import ChatOpenAI
+# llm = ChatOpenAI(model="gpt-4o-mini")
 
 # # model = "llama3.2:3b"
-# model = "qwen2.5"
-# llm = ChatOllama(model=model, base_url="http://localhost:11434")
+model = "qwen2.5"
+llm = ChatOllama(model=model, base_url="http://localhost:11434")
 
 ### grader node
 def grade_documents(state) -> Literal["generate", "rewrite"]:
@@ -124,10 +124,6 @@ def generate(state):
 
     # Prompt
     prompt = hub.pull("rlm/rag-prompt")
-
-    # Post-processing
-    def format_docs(docs):
-        return "\n\n".join(doc.page_content for doc in docs)
 
     # Chain
     rag_chain = prompt | llm | StrOutputParser()

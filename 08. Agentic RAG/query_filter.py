@@ -3,6 +3,7 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_ollama import ChatOllama
 
 # Step 1: Initialize the LLM
+# # model = "llama3.2:3b"
 model = "qwen2.5"
 llm = ChatOllama(model=model, base_url="http://localhost:11434")
 
