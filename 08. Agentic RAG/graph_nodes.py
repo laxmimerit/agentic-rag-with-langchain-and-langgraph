@@ -7,9 +7,6 @@ from langchain_core.prompts import PromptTemplate
 
 from langchain_ollama import ChatOllama
 
-# from langchain_openai import ChatOpenAI
-# llm = ChatOpenAI(model="gpt-4o-mini")
-
 # # model = "llama3.2:3b"
 model = "qwen2.5"
 llm = ChatOllama(model=model, base_url="http://localhost:11434")
