@@ -1,25 +1,21 @@
 # Docling and document processing
-docling
-langchain-docling
-langchain_docling
-docling-core[chunking]
+docling==2.32.0
+langchain-docling==0.2.0
 
 # LangChain ecosystem
-langchain
-langchain_community
-langchain_core
-langchain_openai
-langchain-ollama
+langchain==0.3.25
+langgraph==0.4.5
+langchain_community==0.3.24
+langchain_openai==0.3.17
+langchain-ollama==0.3.3
 
 # Data processing and file formats
-openpyxl
-python-magic
-python-pptx
-unstructured
-unstructured[all-docs]
-faiss-cpu
+openpyxl==3.1.5
+python-magic==0.4.27
+python-pptx==1.0.2
+unstructured==0.17.2
+faiss-cpu==1.11.0
 
 # Utilities
-python-dotenv
-pydantic
-httpx
+python-dotenv==1.1.0
+httpx==0.28.1
