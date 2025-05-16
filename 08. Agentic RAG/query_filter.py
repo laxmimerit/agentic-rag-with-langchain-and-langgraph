@@ -53,11 +53,11 @@ def get_company_name(query: str) -> str:
     
     return company_name
 
-# # Step 4: Example usage
-# query = "Tell me about the latest news from Microsoft."
-# result = get_company_name(query)
-# print(result)  # Output: microsoft
+# Step 4: Example usage
+query = "Tell me about the latest news from Microsoft."
+result = get_company_name(query)
+print(result)  # Output: microsoft
 
-# query = "What is the weather today?"
-# result = get_company_name(query)
-# print(result)  # Output: none
+query = "What is the weather today?"
+result = get_company_name(query)
+print(result)  # Output: none

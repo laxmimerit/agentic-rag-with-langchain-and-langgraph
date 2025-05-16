@@ -65,8 +65,6 @@ def grade_documents(state) -> Literal["generate", "rewrite"]:
         print("---DECISION: DOCS NOT RELEVANT---")
         print(score)
         return "rewrite"
-    
-
 
 ## rewrite node
 def rewrite(state):
